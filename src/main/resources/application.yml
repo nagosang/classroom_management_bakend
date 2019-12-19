@@ -1,0 +1,18 @@
+server:
+  port: 7777
+  path: http://localhost:7777/
+  servlet:
+    context-path: /
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/Classroom_management?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
+    username: root
+    password: fds1056007946
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jackson:
+    time-zone: GMT+8
+
+appConfig:
+  serverTimeZone: GMT+8
